@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLUXO — Sistemas e automações que operam sua empresa sozinhas</title>
+<meta name="description" content="A FLUXO desenha automações, sistemas sob medida e infraestrutura de software para empresas que querem crescer sem contratar mais gente para fazer trabalho repetitivo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">FLUXO<span class="dot">.</span></a>
+    <nav class="nav-links">
+      <a href="#solucoes">Soluções</a>
+      <a href="#personas">Para quem</a>
+      <a href="#processo">Processo</a>
+      <a href="#numeros">Resultados</a>
+      <a href="#comparativo">Por que a FLUXO</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a href="#contato" class="btn btn-nav">Agendar diagnóstico</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="nodeCanvas"></canvas>
+    <div class="hero-inner">
+      <p class="eyebrow reveal">automação · sistemas sob medida · engenharia de crescimento</p>
+      <h1 class="hero-title">
+        <span class="reveal-line">Sua empresa ainda</span>
+        <span class="reveal-line">trabalha <em>manualmente</em>.</span>
+        <span class="reveal-line">A sua concorrência <span class="highlight">já não trabalha mais</span>.</span>
+      </h1>
+      <p class="hero-sub reveal">
+        Projetamos os sistemas, integrações e automações que tiram sua operação do "achismo" e da planilha —
+        e liberam seu time para fazer o que realmente gera receita.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#contato" class="btn btn-primary magnetic">
+          <span>Quero automatizar minha operação</span>
+        </a>
+        <a href="#solucoes" class="btn btn-ghost">Ver o que fazemos ↓</a>
+      </div>
+      <div class="hero-meta reveal">
+        <div class="meta-item"><strong>+120</strong> operações automatizadas</div>
+        <div class="meta-item"><strong>72%</strong> menos tarefas manuais em média</div>
+        <div class="meta-item"><strong>21 dias</strong> até o primeiro sistema no ar</div>
+      </div>
+    </div>
+    <div class="scroll-cue">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- SOCIAL PROOF -->
+  <section class="marquee-section">
+    <p class="marquee-label">Empresas que trocaram trabalho manual por sistema</p>
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>ROTA LOGÍSTICA</span><span>NORTE CAPITAL</span><span>VÉRTICE INDÚSTRIA</span><span>GRUPO ALTAVIA</span><span>CLÍNICA PRIMA</span><span>BLOOM VAREJO</span><span>ANCORA CONTÁBIL</span><span>OESTE AGRO</span>
+        <span>ROTA LOGÍSTICA</span><span>NORTE CAPITAL</span><span>VÉRTICE INDÚSTRIA</span><span>GRUPO ALTAVIA</span><span>CLÍNICA PRIMA</span><span>BLOOM VAREJO</span><span>ANCORA CONTÁBIL</span><span>OESTE AGRO</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOR -> SOLUÇÃO -->
+  <section class="pains" id="dores">
+    <div class="container">
+      <span class="section-tag reveal">o diagnóstico</span>
+      <h2 class="section-title reveal">Você não tem um problema de esforço. <br>Tem um problema de <em>sistema</em>.</h2>
+      <div class="pains-grid">
+        <article class="pain-card reveal">
+          <span class="pain-num">01</span>
+          <p class="pain-before">"A gente resolve tudo por planilha e WhatsApp."</p>
+          <div class="pain-arrow">→</div>
+          <p class="pain-after">Um sistema central onde cada pedido, cliente e status atualiza sozinho.</p>
+        </article>
+        <article class="pain-card reveal">
+          <span class="pain-num">02</span>
+          <p class="pain-before">"Só sabemos o resultado do mês quando o mês já acabou."</p>
+          <div class="pain-arrow">→</div>
+          <p class="pain-after">Dashboards vivos, atualizados em tempo real, com o número que importa na tela.</p>
+        </article>
+        <article class="pain-card reveal">
+          <span class="pain-num">03</span>
+          <p class="pain-before">"Contratamos gente só para copiar dado de um sistema pro outro."</p>
+          <div class="pain-arrow">→</div>
+          <p class="pain-after">Integrações que conversam sozinhas — sem retrabalho, sem erro humano.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUÇÕES -->
+  <section class="solutions" id="solucoes">
+    <div class="container">
+      <span class="section-tag reveal">o que entregamos</span>
+      <h2 class="section-title reveal">Três frentes. Um único objetivo: <em>sua empresa rodando sem depender de gente para tarefas repetitivas.</em></h2>
+
+      <div class="solution-tabs reveal">
+        <button class="tab-btn active" data-tab="automacao">Automação de Processos</button>
+        <button class="tab-btn" data-tab="sistemas">Sistemas Sob Medida</button>
+        <button class="tab-btn" data-tab="growth">Marketing &amp; Growth</button>
+      </div>
+
+      <div class="tab-panels">
+        <div class="tab-panel active" id="panel-automacao">
+          <div class="panel-grid">
+            <div class="panel-text">
+              <h3>Automação de Processos</h3>
+              <p>Mapeamos onde sua equipe perde tempo fazendo trabalho que um script deveria fazer — e construímos a automação que assume essa tarefa 24h por dia, sem cansar e sem errar.</p>
+              <ul class="panel-list">
+                <li>Integração entre ERP, CRM, financeiro e ferramentas internas</li>
+                <li>Robôs de captura, cadastro e conciliação de dados</li>
+                <li>Notificações e fluxos de aprovação automáticos</li>
+                <li>Relatórios gerados e enviados sozinhos, todo dia</li>
+              </ul>
+            </div>
+            <div class="panel-visual" data-visual="automacao">
+              <div class="flow-diagram">
+                <div class="flow-node n1">Pedido<br>entra</div>
+                <div class="flow-node n2">Sistema<br>valida</div>
+                <div class="flow-node n3">Financeiro<br>atualiza</div>
+                <div class="flow-node n4">Cliente<br>notificado</div>
+                <svg class="flow-lines" viewBox="0 0 400 260" preserveAspectRatio="none">
+                  <path class="flow-path" d="M60,50 C160,50 160,130 200,130" />
+                  <path class="flow-path" d="M200,130 C240,130 240,50 340,50" />
+                  <path class="flow-path" d="M200,130 C240,130 240,210 340,210" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-sistemas">
+          <div class="panel-grid">
+            <div class="panel-text">
+              <h3>Sistemas Sob Medida</h3>
+              <p>Nem todo problema cabe em um software pronto. Quando a sua operação é única, construímos o sistema web ou painel interno que se encaixa exatamente no seu jeito de trabalhar.</p>
+              <ul class="panel-list">
+                <li>Painéis administrativos e portais de cliente</li>
+                <li>Plataformas SaaS e produtos digitais próprios</li>
+                <li>Módulos de gestão (estoque, pedidos, agenda, contratos)</li>
+                <li>Infraestrutura escalável, segura e sua — sem lock-in</li>
+              </ul>
+            </div>
+            <div class="panel-visual" data-visual="sistemas">
+              <div class="mock-window">
+                <div class="mock-bar"><span></span><span></span><span></span></div>
+                <div class="mock-body">
+                  <div class="mock-side"></div>
+                  <div class="mock-content">
+                    <div class="mock-card"></div>
+                    <div class="mock-card small"></div>
+                    <div class="mock-chart">
+                      <div class="bar" style="--h:40%"></div>
+                      <div class="bar" style="--h:70%"></div>
+                      <div class="bar" style="--h:55%"></div>
+                      <div class="bar" style="--h:90%"></div>
+                      <div class="bar" style="--h:65%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="panel-growth">
+          <div class="panel-grid">
+            <div class="panel-text">
+              <h3>Marketing &amp; Growth</h3>
+              <p>Sistema bom sem demanda não gera receita. Por isso desenhamos a aquisição — performance, funil e conteúdo — com o mesmo rigor de engenharia que aplicamos no software.</p>
+              <ul class="panel-list">
+                <li>Tráfego pago com atribuição real, não achismo</li>
+                <li>Funis conectados direto ao seu CRM/sistema</li>
+                <li>Landing pages que convertem, testadas por dados</li>
+                <li>Relatório de CAC, LTV e ROI atualizado ao vivo</li>
+              </ul>
+            </div>
+            <div class="panel-visual" data-visual="growth">
+              <div class="funnel">
+                <div class="funnel-stage" style="--w:100%">Visitantes <b>18.400</b></div>
+                <div class="funnel-stage" style="--w:64%">Leads <b>3.120</b></div>
+                <div class="funnel-stage" style="--w:34%">Oportunidades <b>860</b></div>
+                <div class="funnel-stage" style="--w:16%">Clientes <b>214</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PERSONAS -->
+  <section class="personas" id="personas">
+    <div class="container">
+      <span class="section-tag reveal">para quem decide</span>
+      <h2 class="section-title reveal">Um sistema, três motivos diferentes para ele existir.</h2>
+      <div class="persona-grid">
+        <article class="persona-card reveal">
+          <span class="persona-tag">Diretoria / C-level</span>
+          <h3>Do "achismo" à decisão com dado</h3>
+          <ul class="persona-list">
+            <li>Visão consolidada de receita, custo e margem em tempo real</li>
+            <li>Menos reunião pra saber "como estamos" — o número já está na tela</li>
+            <li>Decisões de investimento com base em histórico, não em intuição</li>
+            <li>Governança e auditoria sem depender de planilha de terceiros</li>
+          </ul>
+        </article>
+        <article class="persona-card reveal">
+          <span class="persona-tag">Gestores / Coordenação</span>
+          <h3>O fim de apagar incêndio todo dia</h3>
+          <ul class="persona-list">
+            <li>Fluxo de aprovação automático — sem cobrar por WhatsApp</li>
+            <li>Indicadores de equipe atualizados sem pedir relatório manual</li>
+            <li>Alertas automáticos quando algo sai do previsto</li>
+            <li>Menos tempo gerenciando ferramenta, mais tempo gerenciando gente</li>
+          </ul>
+        </article>
+        <article class="persona-card reveal">
+          <span class="persona-tag">Time operacional</span>
+          <h3>Adeus ao trabalho braçal e repetitivo</h3>
+          <ul class="persona-list">
+            <li>Sem digitar o mesmo dado em três sistemas diferentes</li>
+            <li>Menos planilha, menos "copia e cola", menos erro</li>
+            <li>Interface pensada pra quem usa 8 horas por dia, não pra quem vende</li>
+            <li>Tempo livre pra trabalho que exige gente — não robô</li>
+          </ul>
+        </article>
+      </div>
+      <div class="persona-cta reveal">
+        <a href="#contato" class="btn btn-ghost">Ver qual frente resolve seu problema primeiro →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner">
+    <div class="container cta-banner-inner reveal">
+      <p>Ainda decidindo? <strong>21 dias</strong> é o tempo médio até o primeiro sistema entrar em produção.</p>
+      <a href="#contato" class="btn btn-primary">Agendar diagnóstico gratuito</a>
+    </div>
+  </section>
+
+  <!-- PROCESSO -->
+  <section class="process" id="processo">
+    <div class="container">
+      <span class="section-tag reveal">como funciona</span>
+      <h2 class="section-title reveal">Do diagnóstico ao sistema no ar, sem enrolação.</h2>
+      <div class="process-line">
+        <div class="process-step reveal">
+          <span class="step-index">01</span>
+          <h4>Diagnóstico</h4>
+          <p>Mapeamos sua operação e apontamos exatamente onde a automação e o sistema pagam a conta mais rápido.</p>
+          <span class="step-time">3 dias úteis</span>
+        </div>
+        <div class="process-step reveal">
+          <span class="step-index">02</span>
+          <h4>Arquitetura</h4>
+          <p>Desenhamos o fluxo, as integrações e a interface antes de escrever uma linha de código.</p>
+          <span class="step-time">1 semana</span>
+        </div>
+        <div class="process-step reveal">
+          <span class="step-index">03</span>
+          <h4>Construção</h4>
+          <p>Desenvolvemos em ciclos curtos, com entregas visíveis toda semana — você acompanha, não espera.</p>
+          <span class="step-time">2 a 6 semanas</span>
+        </div>
+        <div class="process-step reveal">
+          <span class="step-index">04</span>
+          <h4>Operação</h4>
+          <p>Sistema no ar, time treinado, e um responsável dedicado acompanhando os primeiros 90 dias.</p>
+          <span class="step-time">suporte contínuo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NUMEROS -->
+  <section class="numbers" id="numeros">
+    <div class="container numbers-grid">
+      <div class="number-card reveal">
+        <span class="number-value" data-count="72">0</span><span class="number-suffix">%</span>
+        <p>redução média de tarefas manuais depois da automação</p>
+      </div>
+      <div class="number-card reveal">
+        <span class="number-value" data-count="120">0</span><span class="number-suffix">+</span>
+        <p>operações e sistemas entregues para empresas de todos os portes</p>
+      </div>
+      <div class="number-card reveal">
+        <span class="number-value" data-count="21">0</span>
+        <p>dias, em média, até o primeiro sistema entrar em produção</p>
+      </div>
+      <div class="number-card reveal">
+        <span class="number-value" data-count="4">0</span><span class="number-suffix">,9</span>
+        <p>nota média de satisfação dos clientes ativos (base de 87 avaliações)</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPOIMENTOS -->
+  <section class="testimonials">
+    <div class="container">
+      <span class="section-tag reveal">quem já saiu do manual</span>
+      <h2 class="section-title reveal">Não é sobre tecnologia. É sobre tempo de volta.</h2>
+      <div class="testi-grid">
+        <blockquote class="testi-card reveal">
+          <p>"A gente levava 3 dias pra fechar o relatório financeiro do mês. Hoje é automático — e o time que fazia isso agora vende."</p>
+          <footer><strong>Marcelo Andrade</strong><span>Diretor Financeiro, Grupo Altavia</span></footer>
+        </blockquote>
+        <blockquote class="testi-card reveal">
+          <p>"Tínhamos 4 sistemas que não se falavam. A FLUXO conectou tudo em 5 semanas. Parece outra empresa."</p>
+          <footer><strong>Renata Souza</strong><span>COO, Bloom Varejo</span></footer>
+        </blockquote>
+        <blockquote class="testi-card reveal">
+          <p>"O painel que construíram virou a ferramenta que a operação inteira usa todo dia. Nunca mais abrimos planilha."</p>
+          <footer><strong>Diego Fonseca</strong><span>CEO, Rota Logística</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPARATIVO -->
+  <section class="compare" id="comparativo">
+    <div class="container">
+      <span class="section-tag reveal">a diferença</span>
+      <h2 class="section-title reveal">Agência de marketing genérica ou fábrica de software lenta. <br><em>Escolha um terceiro caminho.</em></h2>
+      <div class="compare-table reveal">
+        <div class="compare-row compare-head">
+          <div></div>
+          <div>Agência tradicional</div>
+          <div class="col-highlight">FLUXO</div>
+        </div>
+        <div class="compare-row">
+          <div>Escopo</div>
+          <div>Só marketing, ou só software — nunca os dois juntos</div>
+          <div class="col-highlight">Marketing, sistema e automação na mesma engenharia</div>
+        </div>
+        <div class="compare-row">
+          <div>Prazo de entrega</div>
+          <div>2 a 6 meses até ver algo funcionando</div>
+          <div class="col-highlight">Primeiro sistema no ar em 21 dias</div>
+        </div>
+        <div class="compare-row">
+          <div>Propriedade</div>
+          <div>Você paga mensalidade e não é dono de nada</div>
+          <div class="col-highlight">Código e sistema são seus, sem lock-in</div>
+        </div>
+        <div class="compare-row">
+          <div>Relatórios</div>
+          <div>PDF mensal, defasado</div>
+          <div class="col-highlight">Dashboard ao vivo, sempre atualizado</div>
+        </div>
+        <div class="compare-row">
+          <div>Suporte</div>
+          <div>Ticket que demora dias</div>
+          <div class="col-highlight">Time dedicado, resposta em minutos</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <span class="section-tag reveal">perguntas frequentes</span>
+      <h2 class="section-title reveal">Ainda com dúvida? Provavelmente já respondemos.</h2>
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q">Minha empresa é pequena, a FLUXO atende esse porte? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Sim. Trabalhamos com operações desde 5 pessoas até empresas com centenas de colaboradores — o projeto é dimensionado pra sua realidade, não o contrário.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Quanto tempo leva um projeto do início ao fim? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>O diagnóstico leva 3 dias úteis. A partir daí, o primeiro sistema costuma ir ao ar entre 2 e 6 semanas, dependendo da complexidade das integrações.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Vocês integram com o sistema que já usamos hoje (ERP, CRM etc)? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Sim, é o ponto de partida da maioria dos projetos. Trabalhamos com as principais plataformas do mercado e construímos integrações customizadas quando não existe conector pronto.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">O sistema desenvolvido é meu, ou fico preso à FLUXO? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>É seu. Código, infraestrutura e dados ficam sob sua propriedade — você pode continuar com a gente ou levar para outro time a qualquer momento.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Como funciona o suporte depois da entrega? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Acompanhamos os primeiros 90 dias de operação com um responsável dedicado, e a partir daí você escolhe entre plano de manutenção contínua ou suporte sob demanda.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Preciso ter um time técnico interno para operar o sistema? <span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Não. Construímos pensando em quem vai usar no dia a dia, com treinamento incluso na entrega — nenhuma linha de código exigida da sua equipe.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final-cta" id="contato">
+    <canvas id="ctaCanvas"></canvas>
+    <div class="container final-cta-inner reveal">
+      <span class="section-tag light">próximo passo</span>
+      <h2 class="final-title">Sua operação pode rodar sozinha <br>a partir do mês que vem.</h2>
+      <p class="final-sub">Agende um diagnóstico gratuito de 30 minutos. Sem compromisso, sem enrolação — só um mapa claro do que dá pra automatizar primeiro.</p>
+      <form class="cta-form" id="ctaForm">
+        <input type="text" name="nome" placeholder="Seu nome" required>
+        <input type="text" name="empresa" placeholder="Empresa" required>
+        <input type="email" name="email" placeholder="E-mail corporativo" required>
+        <input type="tel" name="telefone" placeholder="WhatsApp" required>
+        <select name="segmento" required>
+          <option value="" disabled selected>Segmento da empresa</option>
+          <option>Indústria</option>
+          <option>Varejo / E-commerce</option>
+          <option>Serviços</option>
+          <option>Saúde</option>
+          <option>Logística</option>
+          <option>Financeiro / Contábil</option>
+          <option>Outro</option>
+        </select>
+        <select name="faturamento" required>
+          <option value="" disabled selected>Faturamento mensal</option>
+          <option>Até R$ 100 mil</option>
+          <option>R$ 100 mil a R$ 500 mil</option>
+          <option>R$ 500 mil a R$ 2 milhões</option>
+          <option>Acima de R$ 2 milhões</option>
+        </select>
+        <button type="submit" class="btn btn-primary btn-large">Agendar diagnóstico gratuito</button>
+      </form>
+      <p class="final-note">Resposta em até 1 dia útil. Sem spam, sem letra miúda.</p>
+    </div>
+  </section>
+
+</main>
+
+<div class="mobile-cta" id="mobileCta">
+  <a href="#contato" class="btn btn-primary">Agendar diagnóstico gratuito</a>
+</div>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <span class="logo">FLUXO<span class="dot">.</span></span>
+    <p>Automação, sistemas sob medida e growth para empresas que decidiram parar de trabalhar no manual.</p>
+    <p class="footer-copy">© 2026 FLUXO. Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

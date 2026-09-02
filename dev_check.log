@@ -1,0 +1,56 @@
+
+> fluxo-site@1.0.0 dev
+> vite
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m458[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m12:50:54[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Nav.jsx[22m
+[2m13:05:18[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Scene3D.jsx[22m
+[2m13:05:21[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Scene3D.jsx[22m
+[2m13:05:25[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/scene/OrbCanvas.jsx[22m
+[2m13:05:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m13:07:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m13:07:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m13:07:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Pains.jsx[22m
+[2m13:07:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Pains.jsx[22m
+[2m13:07:53[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Compare.jsx[22m
+[2m13:07:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Compare.jsx[22m
+[2m13:08:00[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Faq.jsx[22m
+[2m13:08:03[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Faq.jsx[22m
+[2m13:08:07[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Personas.jsx[22m
+[2m13:08:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Personas.jsx[22m
+[2m13:08:14[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Process.jsx[22m
+[2m13:08:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Process.jsx[22m
+[2m13:08:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Testimonials.jsx[22m
+[2m13:08:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Testimonials.jsx[22m
+[2m13:08:27[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Solutions.jsx[22m
+[2m13:08:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Solutions.jsx[22m
+[2m13:08:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/FinalCta.jsx[22m
+[2m13:08:38[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/FinalCta.jsx[22m
+[2m13:08:58[22m [36m[1m[vite][22m[39m [32mvite.config.js changed, restarting server...[39m
+[2m13:08:58[22m [36m[1m[vite][22m[39m server restarted.
+[2m13:09:16[22m [36m[1m[vite][22m[39m [32mvite.config.js changed, restarting server...[39m
+[2m13:09:16[22m [36m[1m[vite][22m[39m server restarted.
+[2m13:18:36[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m13:18:43[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m13:18:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m13:19:11[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Loader.jsx[22m
+[2m13:19:16[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Loader.jsx[22m
+[2m13:19:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.jsx[22m
+[2m13:19:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.jsx[22m
+[2m13:19:25[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero.jsx[22m
+[2m13:19:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Nav.jsx[22m
+[2m13:19:39[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Nav.jsx[22m
+[2m13:22:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/scene/NetworkOrb.jsx[22m
+[2m13:22:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/scene/NetworkOrb.jsx[22m
+[2m13:22:59[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/scene/NetworkOrb.jsx[22m
+[2m13:23:05[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/scene/NetworkOrb.jsx[22m
+[2m13:29:33[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/SplitText.jsx[22m
+[2m13:29:37[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/SplitText.jsx[22m
+[2m13:30:51[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m13:30:57[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m13:31:12[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m13:31:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/index.css[22m
